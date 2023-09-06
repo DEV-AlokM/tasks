@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .horizontal-box {
+            background-color: #f0f0f0; /* Light gray background color */
+            padding: 10px;
+            border: 1px solid #ccc; /* Thin border around the box */
+            text-align: center; /* Center-align text */
+        }
+
+        .horizontal-box a {
+            text-decoration: underline; /* Add underline to links */
+            color: blue; /* Set link text color to blue */
+            margin: 0 10px; /* Spacing between links */
+        }
+        .horizontal-box p {
+            text-align: left;
+
+        }
+
+    </style>
+</head>
+<body>
+    <div class="horizontal-box">
+        <p>Click any of the following links:</p>
+        <br> <!-- Line break to move links to the second line -->
+        <a href="#" target="_blank">Open in new</a> |
+        <a href="#" target="_self">Open in self</a> |
+        <a href="#" target="_parent">Open in parent</a> |
+        <a href="#" target="_top">Open in body</a> |
+        <a href="mailto:youremail@example.com">Send email</a>
+    </div>
+</body>
+</html>
